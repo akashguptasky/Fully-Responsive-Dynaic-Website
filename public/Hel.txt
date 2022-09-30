@@ -1,0 +1,25 @@
+Here we will take all static things 
+
+//static file ko serve krna
+//static css style.css
+app.use('/static',express.static("public"))
+app.use('',routes)
+
+
+
+partials set krna 
+nav ---> parsials 
+hbs.registerPartial("views/partials")
+
+
+//by using render we can transfer our object which is coming from database 
+routes.get('/gallery', async (req,res)=>{
+    const details= await Detail.findOne({"_id":"62a586d99ea18fa060870035"})
+    res.render("gallery",{
+        details:details
+
+    })
+})
+
+ab iske baad gallery page {{>nav data=details}} se details ko data name ke var mai store krke nav pr send kr dete hai
+ 

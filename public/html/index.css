@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header-top
+{
+    width:100%;
+    background-color: antiquewhite;
+    height: 50vh;
+    background-image: url('https://images.unsplash.com/photo-1562813733-b31f71025d54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#header-top-h1
+{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 8%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* word-spacing: 1em; */
+    letter-spacing: 0.2em;
+}
+#header-top-h2
+{
+    color:#ffffff;
+    text-align: center;
+    padding-top: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* word-spacing: 1em; */
+    letter-spacing: 0.2em;
+}
+.nav
+{
+
+    width:100%;
+    background-color: rgb(0, 13, 13);
+    height:max-content;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    box-sizing: border-box;
+   
+    
+   
+
+}
+.nav ul 
+{
+    text-decoration: none;
+    list-style: none;
+    display: flex;  
+    justify-content: space-around;
+    justify-items:flex-start;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    
+   
+}
+.nav ul li a:hover
+{
+    background-color: #ffffff;
+    color:black;
+    padding: 0.3rem;
+    
+}
+.nav ul li a
+{
+  text-decoration: none;
+  
+  color:#ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:1em;
+}
+.nav ul li img
+{
+    padding-right: 1rem;
+}
+@media screen and (max-width: 480px) {
+
+.nav
+{
+    background-color: blue;
+  position: relative;
+}
+
+   .nav ul 
+{
+    text-decoration: none;
+    list-style: none;
+    display: block;  
+    justify-content: space-around;
+    justify-items:flex-start;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left:25%;
+    padding-right: 25%;
+    position: relative;
+    
+   
+}
+.nav ul li 
+{
+    border:1px solid rgb(254, 254, 254);
+    border-radius: 1em;
+    text-align: center;
+    margin: 2%;
+}
+.main-box
+{
+    flex-direction: column-reverse;
+}
+
+.content-body
+{
+    border: 1px solid rgb(148, 225, 255);
+    /* yaha pehel 50% tha */
+    width: 100%;
+    margin-left: 0.1rem;
+    margin-top:1%;
+    margin-right: 10%;
+    text-align: left;
+    padding:1%;
+    font-size: 1.1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: max-content;
+   
+   
+}
+.left-bar 
+{
+    display: none;
+}
+
+
+}
+
+
+
+
+.left-bar
+{
+    /* yaha pehle max-content tha */
+    width:50%;
+    height:max-content;
+    /* border: 1px solid black; */
+    margin-top: 1%;
+    margin-right: 4%;
+    font-size: 1.1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
+
+
+}
+.left-bar-h3
+{
+    width: auto;
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 2vw;
+   
+    color:#ffffff;
+    background-color: blueviolet;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.left-bar li a
+{
+    text-decoration: none;
+    color:black;
+}
+.left-bar li
+{
+    border-radius:1px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-top:1rem;
+    padding:0.9rem;
+    border: 1px solid rgb(172, 111, 241);
+}
+
+.content-body
+{
+  
+    border: 1px solid rgb(148, 225, 255);
+    width: 100%;
+    margin-left: 0.1rem;
+    margin-top:1%;
+    margin-right: 10%;
+    text-align: left;
+    padding:1%;
+    font-size: 1.1vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    height: max-content;
+    font-family: sans-serif;
+   
+    
+}
+
+.content-body h3
+{
+   
+    font-size: 2vw;
+    border: 1px solid rgb(172, 111, 241);
+    background-color: blueviolet;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color:#ffffff;
+    text-align: center;
+    
+
+    
+}
+.right-social-media-icon
+{
+    margin-top: 10%;
+   
+    position: fixed;
+    top:0;right: 0;
+    float:right;
+    text-align: right;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;}
+
+.right-social-media-icon a
+{
+    display: block;
+    
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    border: 1px solid rgb(172, 111, 241);
+    
+    
+  
+}
+.right-social-media-icon a:hover
+{
+    display: block;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    
+  
+}
+.main-box
+{
+    display: flex;
+    justify-content: flex-start;
+ 
+    justify-content: space-between;
+    
+}
+.fa-whatsapp
+{
+  color:rgb(144, 222, 72);
+   
+}
+.fa-instagram
+{
+  color:rgb(253, 67, 67);
+   
+}
+.fa-facebook
+{
+    color:blue;
+}
+video
+{
+    width:100%;
+    /* padding-left:5rem; */
+    padding-top:1rem;
+    /* padding-left: 5rem; */
+    z-index: 1;
+}
+.content-img
+{
+    width: 100%;
+    
+    padding-top: 2rem;
+  
+}
+
+
+.btn
+{
+    width:30%;
+    margin: 2rem;
+    height:3rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 1rem;
+    border: 1px solid rgb(172, 111, 241);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    letter-spacing: 0.1em;
+    font-size: larger;
+}
+.btn:hover
+{
+    background-color: blueviolet;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: larger;
+}
+
+
+/* =================================Footer Code here ++++++++++++++++++++++++++ */
+
+#footer
+{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height:450px;
+    margin-top: 1rem;
+    color:white;
+    
+}
+#footer-child1
+{
+    padding: 1rem;
+    border-bottom: 5px solid whitesmoke;
+    width: 100%;
+}
